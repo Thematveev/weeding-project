@@ -1,0 +1,23 @@
+.section {
+    padding: 25px 20px;
+    min-height: 100vh;
+    background-image: linear-gradient( rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 0.1) ), url('../assets/friends-bg.JPG');
+    background-position: center;
+    background-size: cover;
+}
+
+.section-title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: #BE3455;
+}
+
+.section-title > span {
+    color: #BE3455;
+}
+
+
+.section-content {
+    line-height: 28px;
+}

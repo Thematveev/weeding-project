@@ -1,0 +1,13 @@
+@keyframes scrollicon {
+    0% {
+        margin-bottom: 30px;
+    }
+
+    50% {
+        margin-bottom: 0px;
+    }
+
+    100% {
+        margin-bottom: 30px;
+    }
+}
