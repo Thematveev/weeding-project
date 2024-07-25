@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./css/animations.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/sections.css">
+    <link rel="stylesheet" href="./css/countdown.css">
 </head>
 <body>
     <header>
@@ -35,9 +36,39 @@
         </div>
         <div class="section">
             <h2 class="section-title"><span>Д</span>ата та час</h2>
-            <p class="section-content">
-                14:00 05.09.2024
+            <p class="section-content" style="text-align: center; font-size: 40px; line-height: 40px; font-family: 'Great Vibes', cursive; letter-spacing: 4px">
+                5 вересня 2024<br>14:00 - початок<br><br>Залишилось
             </p>
+            <div class="clock-container">
+                <div class="clock-col">
+                  <p class="clock-day clock-timer">
+                  </p>
+                  <p class="clock-label">
+                    Days
+                  </p>
+                </div>
+                <div class="clock-col">
+                  <p class="clock-hours clock-timer">
+                  </p>
+                  <p class="clock-label">
+                    Hours
+                  </p>
+                </div>
+                <div class="clock-col">
+                  <p class="clock-minutes clock-timer">
+                  </p>
+                  <p class="clock-label">
+                    Minutes
+                  </p>
+                </div>
+                <div class="clock-col">
+                  <p class="clock-seconds clock-timer">
+                  </p>
+                  <p class="clock-label">
+                    Seconds
+                  </p>
+                </div>
+              </div>
         </div>
         <div class="section">
             <h2 class="section-title"><span>Л</span>окація</h2>
@@ -84,6 +115,12 @@
         </div>
         <div class="section">
             <h2 class="section-title"><span>П</span>одарунки</h2>
+            <p>
+                Найкращим подарунком для нас будуть кошти, які допоможуть втілити наші мрії в реальність.
+            </p>
+            <p style="padding: 20px 0;">
+                Замість квітів візьміть пляшку вашого улюбленого алкоголю та напишіть на ній ваше ім‘я і дату, коли ми з вами маємо її відкрити
+            </p>
         </div>
 
         <!-- <div class="map">
@@ -97,4 +134,5 @@
     </footer>
 </body>
 <!-- <script src="./scripts/randomVideo.js"></script> -->
+ <script src="./scripts/countdown.js"></script>
 </html>
