@@ -77,3 +77,19 @@
     display: block;
     width: 40%;
 }
+
+.float-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0.7;
+}
+
+.float-link > img {
+    width: 100px;
+    height: 100px;
+    animation-name: tg-link;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
